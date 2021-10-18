@@ -170,6 +170,7 @@ public class Main
         newNode.next=current.next;
     }
     
+    //delete a given key in linked list
     public void deleteKey(int key){
         if(head==null)
             return;
@@ -184,6 +185,7 @@ public class Main
         }
     }
     
+    //loop in a linked list
     public boolean detectLoop(){
         ListNode fast=head;
         ListNode slow=head;
