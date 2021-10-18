@@ -180,6 +180,7 @@ public class Main
             if(current.data==key){
                 prev.next=current.next;
             }
+	    current=current.next;
         }
     }
     
